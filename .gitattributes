@@ -18,3 +18,33 @@
             background-color: #0078d7;
             position: relative;
         }
+       .icon {
+            width: 64px;
+            height: 64px;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            color: white;
+        }
+        .icon img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="desktop">
+        <div class="icon">
+            <img src="folder-icon.png" alt="Folder">
+            <div>My Folder</div>
+        </div>
+        <div class="icon">
+            <img src="file-icon.png" alt="File">
+            <div>My File</div>
+        </div>
+        <div class="icon">
+            <img src="settings-icon.png" alt="Settings">
+            <div>Settings</div>
+        </div>
+    </div>
+</body>
+</html>0
